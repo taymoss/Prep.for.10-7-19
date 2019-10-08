@@ -1,9 +1,16 @@
 <html>
-
-
-
-
-
-
-
+<body>
+  <h1>D3 Elements</h1>  
+<p1>There are multiple elements of d3 that need to be used so that your code is made easier. They are usually put together by strings. These strings look like:</p1>
+    <pre> d3.select("body").append("p").text("Paragraph") </pre> 
+    <p1>Now I will break down each element of this string. </p1>
+    <h2> select("body") </h2>
+    <p1>This selects whatever part you specify inside your code. In this case it selects the entire body of the html.</p1>
+    <h2> append("p") </h2>
+    <p1> This creats a new element and places it at the end of the selection that it is attached with. In this case an empty paragraph was added to the body of the html.</p1>
+    <h2>text("New paragraph!")</h2>
+    <p1>this element takes a string and places it in the new element created by the string. In this case it places the words new paragraph in the p element.</p1>
+    <h1>My Attempt</h1>
+    d3.select("body").append("p").text("I did it!!:)")
+    </body>
 </html>
